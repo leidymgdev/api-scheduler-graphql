@@ -1,9 +1,9 @@
 {
-  "name": "graphql-example",
-  "vendor": "vtex",
+  "name": "api-scheduler-graphql-fpa",
+  "vendor": "vtexlatam",
   "version": "0.2.2",
-  "title": "GraphQL Example",
-  "description": "Reference app for VTEX IO GraphQL Services",
+  "title": "API Scheduler VTEX GraphQL Example",
+  "description": "Reference app for API Scheduler VTEX IO GraphQL Services",
   "mustUpdateAt": "2022-01-04",
   "categories": [],
   "dependencies": {},
@@ -25,6 +25,29 @@
     },
     {
       "name": "graphql-query"
+    },
+    {
+      "name": "POWER_USER_DS"
+    },
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "OMSViewer"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/api/dataentities/*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "/api/*"
+      }
     }
   ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

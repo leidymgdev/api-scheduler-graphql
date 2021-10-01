@@ -1,0 +1,6 @@
+type Book {
+  authors: [String!]
+  cacheId: ID!
+  id: ID!
+  name: String
+}

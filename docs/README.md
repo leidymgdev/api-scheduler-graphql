@@ -1,6 +1,8 @@
-# GraphQL Example
+# Scheduler API GraphQL Example
 
-A reference app implementing a VTEX IO service with GraphQL resolvers.
+A reference app implementing a Scheduler API VTEX IO service with GraphQL resolvers.
+
+![Scheduler API Doc](https://www.notion.so/vtexhandbook/Scheduler-Internal-Documentation-6e634d3c597143a2b6cd7ab5bdb60c37)
 
 ![GraphQL Server Architecture](https://user-images.githubusercontent.com/18706156/77382285-bf2d6c80-6d5e-11ea-9f39-2c30b3ec3672.jpg)
 

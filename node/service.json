@@ -3,5 +3,12 @@
   "ttl": 10,
   "timeout": 1,
   "minReplicas": 2,
-  "maxReplicas": 5
+  "maxReplicas": 5,
+  "routes": {
+    "schedulerFPA": {
+      "path": "/_v/api/FPA/schedulerFPA",
+      "public": true,
+      "access": "authorized"
+    }
+  }
 }
