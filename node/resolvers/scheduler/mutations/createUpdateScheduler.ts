@@ -1,4 +1,4 @@
-const CRON_EXPRESSION = '* 0 0 ? * * *'
+const CRON_EXPRESSION = '1 * * * *'
 
 export const createUpdateScheduler = async (_: void, __: void, ctx: Context) => {
 
